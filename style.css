@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", sans-serif;
+}
+body {
+  position: relative;
+  background-image: url(https://img.freepik.com/fotos-premium/paisagem-relaxante-no-resort-com-assento-ao-ar-livre_7180-2093.jpg?w=2000);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 4rem;
+  padding: 1rem;
+  text-align: center;
+  animation: colorH1 1s infinite;
+}
+.container {
+  height: max-content;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16rem;
+}
+.clock {
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgb(61, 57, 57);
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  background-color: #dce7e8;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.62);
+}
+span {
+  margin-right: 0.5rem;
+}
+@keyframes colorH1 {
+  0% {
+    color: blue;
+  }
+  50% {
+    color: rgb(14, 100, 67);
+  }
+  100% {
+    color: rgb(255, 25, 0);
+  }
+}
